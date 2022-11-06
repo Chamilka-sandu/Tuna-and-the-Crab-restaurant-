@@ -24,7 +24,7 @@ const HomeContainer = () => {
         </div>
 
         <p className="text-[2.5rem] lg:text-[4.5rem] font-bold tracking-wide text-headingColor">
-          Tuna And the Crab
+          Tuna & the Crab
           <span className="text-orange-600 text-[3rem] lg:text-[5rem]">
             Galle
           </span>
@@ -36,7 +36,7 @@ const HomeContainer = () => {
 
         <button
           type="button"
-          className="bg-gradient-to-br from to-orange-500 w-full md:w-auto px-4 py-2  rounded-lg hover:shadow-lg transition-all ease-in-out duration-100"
+          className="bg-gradient-to-amber-800 from- to-orange-500 w-full md:w-auto px-4 py-2  rounded-lg hover:shadow-lg transition-all ease-in-out duration-100"
         >
           Order Now
         </button>
