@@ -2,6 +2,7 @@ import React from "react";
 import Delivery from "../img/delivery.png";
 import HeroBg from "../img/heroBg.png";
 import { heroData } from "../utils/data";
+import Footer  from "./fotter";
 
 const HomeContainer = () => {
   return (
@@ -71,11 +72,16 @@ const HomeContainer = () => {
                 <p className="text-sm font-semibold text-headingColor">
                   <span className="text-xs text-red-600">$</span> {n.price}
                 </p>
+
+                      
+
               </div>
+              
             ))}
         </div>
       </div>
     </section>
+    
   );
 };
 
