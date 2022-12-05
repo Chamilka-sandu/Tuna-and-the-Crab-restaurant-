@@ -18,7 +18,7 @@ const Header = () => {
   const [{ user, cartShow, cartItems }, dispatch] = useStateValue();
 
   const [isMenu, setIsMenu] = useState(false);
-
+//user login
   const login = async () => {
     if (!user) {
       const {
@@ -33,7 +33,7 @@ const Header = () => {
       setIsMenu(!isMenu);
     }
   };
-
+//logout user
   const logout = () => {
     setIsMenu(false);
     localStorage.clear();
