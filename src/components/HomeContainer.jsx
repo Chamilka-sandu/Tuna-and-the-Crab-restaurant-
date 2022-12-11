@@ -1,6 +1,6 @@
 import React from "react";
 import Delivery from "../img/delivery.png";
-import HeroBg from "../img/heroBg.png";
+import HeroBg1 from "../img/heroBg1.png";
 import { heroData } from "../utils/data";
 import Footer  from "./fotter";
 
@@ -15,7 +15,7 @@ const HomeContainer = () => {
           <p className="text-base text-amber-800 font-semibold">
             Delivery available 
           </p>
-          <div className="w-8 h-8 bg-white rounded-full overflow-hidden drop-shadow-xl">
+          <div className="w-8 h-8 bg-orange-400 rounded-full overflow-hidden drop-shadow-xl">
             <img
               src={Delivery}
               className="w-full h-full object-contain"
@@ -24,28 +24,26 @@ const HomeContainer = () => {
           </div>
         </div>
 
-        <p className="text-[2.5rem] lg:text-[4.5rem] font-bold tracking-wide text-headingColor">
+        <p className="text-[5.5rem] lg:text-[4.5rem] font-bold tracking-wide text-amber-900">
           Tuna & the Crab
-          <span className="text-orange-600 text-[3rem] lg:text-[5rem]">
+          <span className="text-black text-[3rem] lg:text-[3rem]">
             Galle
           </span>
         </p>
 
-        <p className="text-base text-textColor text-center md:text-left md:w-[80%]">
+        <p className="text-base text-textColor text-center md:text-justify md:w-[80%]">
           Situated in the Galle Dutch Hospital within the Galle Fort, The Tuna & The Crab, a Dharshan Munidasa creation, combines the best of Nihonbashi and Ministry of Crab. With indoor seating for 40 people, this hybrid Seafood and Japanese restaurant serves a selection of sushi, seafood and steak dishes.
         </p>
 
-        <button
-          type="button"
-          className="bg-gradient-to-amber-800 from- to-orange-500 w-full md:w-auto px-4 py-2  rounded-lg hover:shadow-lg transition-all ease-in-out duration-100"
+        <button type="button " className=" bg-gradient-to-br  from-amber-500 to-orange-500 w-full md:w-auto px-4 py-2  rounded-lg hover:shadow-lg transition-all ease-in-out duration-100"
         >
           Order Now
         </button>
       </div>
       <div className="py-2 flex-1 flex items-center relative">
         <img
-          src={HeroBg}
-          className=" ml-auto h-420 w-full lg:w-auto lg:h-650"
+          src={HeroBg1}
+          className=" ml-auto h-700 w-full lg:w-auto lg:h-400"
           alt="hero-bg"
         />
 

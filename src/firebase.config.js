@@ -3,13 +3,13 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD_bxGG0WgOKDejZvER2fTq2xZZjfUs8zs",
-  authDomain: "restaurantapp-c2ed6.firebaseapp.com",
-  databaseURL: "https://restaurantapp-c2ed6-default-rtdb.firebaseio.com",
-  projectId: "restaurantapp-c2ed6",
-  storageBucket: "restaurantapp-c2ed6.appspot.com",
-  messagingSenderId: "174416156605",
-  appId: "1:174416156605:web:2ec169ea4ef3e7bb25e4d4",
+ apiKey: "AIzaSyBsrU8m9dY_fmkZnCgqmsnTU7d97ExTxkI",
+  authDomain: "resturant-tunaandthecrab.firebaseapp.com",
+  databaseURL: "https://resturant-tunaandthecrab-default-rtdb.firebaseio.com",
+  projectId: "resturant-tunaandthecrab",
+  storageBucket: "resturant-tunaandthecrab.appspot.com",
+  messagingSenderId: "687699954949",
+  appId: "1:687699954949:web:7171cba794cc4aa4707b6c"
 };
 
 const app = getApps.length > 0 ? getApp() : initializeApp(firebaseConfig);
