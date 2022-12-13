@@ -1,35 +1,29 @@
-import I1 from "../img/i1.png";
+import R1 from "../img/r1.png";
 import F1 from "../img/f1.png";
-import C3 from "../img/c3.png";
+import C7 from "../img/c7.png";
 import Fi1 from "../img/fi1.png";
 
 export const heroData = [
   {
     id: 1,
-    name: "Icecream",
-    decp: "Chocolate & vanilla",
-    price: "5.25",
-    imageSrc: I1,
+    name: "Mixed Rice",
+    decp: "rice with seafood mixed",
+    price: "1800/=",
+    imageSrc: R1,
   },
-  {
-    id: 2,
-    name: "Strawberries",
-    decp: "Fresh Strawberries",
-    price: "10.25",
-    imageSrc: F1,
-  },
+ 
   {
     id: 3,
     name: "Chicken Kebab",
     decp: "Mixed Kebab Plate",
-    price: "8.25",
-    imageSrc: C3,
+    price: "1500/= ",
+    imageSrc: C7,
   },
   {
     id: 4,
     name: "Fish Kebab",
     decp: "Mixed Fish Kebab",
-    price: "5.25",
+    price: "2000/=",
     imageSrc: Fi1,
   },
 ];

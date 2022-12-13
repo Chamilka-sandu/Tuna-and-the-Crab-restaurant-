@@ -43,32 +43,35 @@ const HomeContainer = () => {
       <div className="py-2 flex-1 flex items-center relative">
         <img
           src={HeroBg1}
-          className=" ml-auto h-700 w-full lg:w-auto lg:h-400"
+          className=" ml-auto h-500 w-full lg:w-auto lg:h-400"
           alt="hero-bg"
         />
 
-        <div className="w-full h-full absolute top-0 left-0 flex items-center justify-center lg:px-32  py-4 gap-4 flex-wrap">
+        <div className="w-full h-full absolute top-0 left-0 flex items-center justify-center lg:px-32  py-4 gap-5 flex-wrap">
+                   <div className=" text-[2.5rem] gp-4 font-bold tracking-wide text-black justify-center">Today's Special</div> 
+
+          
           {heroData &&
             heroData.map((n) => (
               <div
                 key={n.id}
-                className="  lg:w-190  p-4 bg-cardOverlay backdrop-blur-md rounded-3xl flex flex-col items-center justify-center drop-shadow-lg"
+                className="  lg:w- min-w-[190px] p-4 bg-cardOverlay backdrop-blur-md rounded-3xl flex flex-col items-center justify-center drop-shadow-lg"
               >
                 <img
                   src={n.imageSrc}
-                  className="w-20 lg:w-40 -mt-10 lg:-mt-20 "
+                  className="w-20 lg:w-40 -mt-5 lg:-mt-20 "
                   alt="I1"
                 />
                 <p className="text-base lg:text-xl font-semibold text-textColor mt-2 lg:mt-4">
                   {n.name}
                 </p>
 
-                <p className="text-[12px] lg:text-sm text-lighttextGray font-semibold my-1 lg:my-3">
+                <p className="text-[10px] lg:text-sm text-black font-semibold my-1 lg:my-0">
                   {n.decp}
                 </p>
 
                 <p className="text-sm font-semibold text-headingColor">
-                  <span className="text-xs text-red-600">$</span> {n.price}
+                  <span className="text-xs text-red-600">Rs.</span> {n.price}
                 </p>
 
                       
