@@ -2,7 +2,7 @@ import React from "react";
 import Delivery from "../img/delivery.png";
 import HeroBg1 from "../img/heroBg1.png";
 import { heroData } from "../utils/data";
-import Footer  from "./fotter";
+//import Footer  from "./fotter";
 
 const HomeContainer = () => {
   return (
